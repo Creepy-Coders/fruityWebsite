@@ -22,7 +22,7 @@
   /*.5rem = 8px | 1rem = 16px ...*/
   --body-font: "Poppins", sans-serif;
   --second-font: "Cherry Bomb One", cursive;
-  --biggest-font-size: 3rem;
+  --biggest-font-size: 2.5rem;
   --big-font-size: 2rem;
   --h1-font-size: 1.5rem;
   --h2-font-size: 1.25rem;
@@ -359,7 +359,9 @@ body.dark-theme
 
 .home__img
 {
+  position: relative;
   width: 320px;
+  bottom: 8rem;
   justify-self: center;
   filter: var(--shadow-img);
 }
@@ -527,7 +529,7 @@ body.dark-theme
 {
   width: 150px;
   position: absolute;
-  top: -4rem;
+  top: -10rem;
   left: 0;
   right: 0;
   margin: 0 auto .75rem;
@@ -1003,7 +1005,7 @@ body.dark-theme
   {
     width: 70px;
     left: 19rem;
-    top: 12rem;
+    top: 17rem;
   }
 
   .home__title
